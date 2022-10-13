@@ -22,11 +22,11 @@ public class KnightTest {
 
     @Test
     public void testHp() {
-        assertTrue(character.getHp() >= 5 && character.getHp() <= 15);
+        assertTrue(character.getHp() >= 2 && character.getHp() <= 12);
     }
 
     @Test
     public void testPower() {
-        assertTrue(character.getPower() >= 5 && character.getPower() <= 15);
+        assertTrue(character.getPower() >= 2 && character.getPower() <= 12);
     }
 }
