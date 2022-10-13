@@ -28,8 +28,8 @@ public class Character{
     @Override
     public String toString() {
         return this.getClass().getSimpleName()+"{" +
-                "power=" + power +
-                ", hp=" + hp +
+                "hp=" + hp +
+                ", power=" + power +
                 '}';
     }
 }
